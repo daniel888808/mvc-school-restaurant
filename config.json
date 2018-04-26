@@ -1,0 +1,9 @@
+{
+    "db":{
+            "db_host":"db.mis.kuas.edu.tw",
+            "db_name":"s1104137223",
+            "db_user":"s1104137223",
+            "db_password":"9659"
+        },
+     "default_module":""
+}

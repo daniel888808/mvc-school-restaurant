@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mvc7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="include/js/ActionHandler.js"></script>
+        <script src="modules/home/js_action/home_home_page.js"></script>
+        <script src="modules/login/js_action/login_login_page.js"></script>
+    </head>
+
+    <body>
+        <div id="content">
+        <table>
+            <tr>
+                <td>
+                    <div style="display: inline" onclick="(new login_page('login', 'login_page', 'content')).run()">登入</div>
+                </td>
+                <td>
+                    <div style="display: inline" onclick="(new home_page('home', 'home_page', 'content')).run()">首頁</div>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div id="test"></div>
+    </body>
+
+</html>
